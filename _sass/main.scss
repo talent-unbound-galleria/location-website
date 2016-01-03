@@ -144,6 +144,17 @@ a:before, a:after {
   }
 }
 
+.button-secondary {
+  background: transparent;
+  border-color: $primary-color;
+  color: $primary-color;
+  &:hover, &:focus {
+    color: white;
+    background: $primary-color;
+    border-color: $primary-color;
+  }
+}
+
 .button-long {
   max-width: 100%;
   white-space: normal;

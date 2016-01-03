@@ -9,7 +9,7 @@
 
 #intro {
   position: relative;
-  background-image: url('../img/studio2.jpg');
+  background-image: url('../img/hero.jpg');
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -37,5 +37,7 @@
 }
 
 footer {
-  padding: 1.5rem 0;
+  p {
+    padding: 2rem 0;
+  }
 }
